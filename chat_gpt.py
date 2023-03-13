@@ -9,7 +9,7 @@ def get_gpt(input_query):
         messages=[{"role": "user", "content": input_query}],
         max_tokens=1024,
         n=1,
-        temperature=0.5,
+        temperature=0,
     )
     print(resp['choices'][0]['message']['content'])
     return 'Done :)'
