@@ -8,4 +8,7 @@ pip install -r requirements.txt
 export OPENAI_SECRET='YOUR SECRET CODE'
 ```
 
-
+To run:
+```
+python3 chat_gpt.py
+```
